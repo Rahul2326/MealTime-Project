@@ -29,6 +29,8 @@ Since this project is still in progress, contributions are welcome! Feel free to
 - Report issues
 - Suggest features
 - Help with UI/UX improvements
+  ##  How to Run
+  - Go live the index.html file 
 
 ## 📜 License
 
