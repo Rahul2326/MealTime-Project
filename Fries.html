@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="order.css">
+  <title>Fries</title>
+</head>
+<body>
+  <div id="product-container">
+<div class="product">
+    <img class="images" src="Wendos/French Fries.JPG">
+    <h2>French Fries</h2>
+    <p>Rs 94</p>
+    <button class="btn" onclick="addToCart('French Fries', 94.00)">Add to Cart</button></div>
+  <div class="product">
+    <img class="images" src="Wendos/Creamy Fries.JPG">
+    <h2>Creamy Fries</h2>
+    <p>Rs 116</p>
+    <button class="btn" onclick="addToCart('Creamy Fries', 116.00)">Add to Cart</button></div>
+  <div class="product">
+    <img class="images" src="Wendos/Peri Peri Fries.JPG">
+    <h2>Peri Peri Fries</h2>
+    <p>Rs 105</p>
+    <button class="btn" onclick="addToCart('Peri Peri Fries', 105.00)">Add to Cart</button></div>
+    <div class="product">
+        <img class="images" src="Wendos/French Fries.JPG">
+        <h2>Sprinkled Fries - New</h2>
+        <p>Rs 109</p>
+        <button onclick="addToCart('Sprinkled Fries - New', 109.00)">Add to Cart</button></div>
+    <div class="product">
+        <img class="images" src="Wendos/French Fries.JPG">
+        <h2>French Fries</h2>
+        <p>Rs 110</p>
+        <button onclick="addToCart('French Fries', 110.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Cheese Fries.JPG">
+        <h2>Cheese Fries</h2>
+        <p>Rs 130</p>
+        <button onclick="addToCart('Cheese Fries', 130.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Masala Fries.JPG">
+        <h2>Masala Fries</h2>
+        <p>Rs 110</p>
+        <button onclick="addToCart('Masala Fries', 110.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Wendos/Peri Peri Fries.JPG">
+        <h2>Peri Peri Fries</h2>
+        <p>Rs 110</p>
+        <button class="btn" onclick="addToCart('Peri Peri Fries', 110.00)">Add to Cart</button></div>
+        <div class="product">
+            <img class="images" src="Wendos/French Fries.JPG">
+            <h2>French Fries</h2>
+            <p>Rs 95</p>
+            <button class="btn" onclick="addToCart('French Fries', 95.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Peri Peri Fries.JPG">
+            <h2>Peri Peri Fries</h2>
+            <p>Rs 100</p>
+            <button class="btn" onclick="addToCart('Peri Peri Fries', 100.00)">Add to Cart</button></div>
+</div>
+<div id="cart-container">
+  <div id="root"></div>
+  <div class="sidebar">
+      <div class="head"><p>My Cart</p></div>
+  <h2></h2>
+  <div id="cart-items"></div>
+  <hr>
+  <div id="total-amount">Total: Rs0.00</div>
+  <button class="btns" id="menu4Button">Checkout</button>
+  <script>                       
+  document.getElementById("menu4Button").addEventListener("click", function() {
+  var menuPageURL = "Checkour.html";
+  window.location.href = menuPageURL;
+  }); </script>
+</div>
+</div>
+</body>
+<script src="order.js"></script>
+</html>

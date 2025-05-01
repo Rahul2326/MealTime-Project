@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Index.css">
+<link rel="stylesheet" href="https://colorhunt.co/palette/0c2d57fc6736ffb0b0efecec">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<title>MealTime</title>  
+</head>
+<body>
+<div class="sidebar">
+<h1 class="logo">MealTime</h1>
+<div class="sidebar-menus">
+<a href="Index.html"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+<a href="User.html"><ion-icon name="person-outline"></ion-icon>User Account</a>
+<a href="Review.html"><ion-icon name="reader-outline"></ion-icon>Review</a>
+<a href="Contact Us.html"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+</div>
+<div class="sidebar-logout">
+<a href="login.html"><ion-icon name="log-out-outline"></ion-icon>Logout</a></div></div>
+<div class="main">
+<div class="main-navbar">
+<ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+<div class="search">
+<input type="text" placeholder="What you want to eat?">
+<button class="search-btn">Search</button>
+</div> </div>
+<div class="main-highlight">
+<div class="main-header">
+<h2 class="main-title">Recommendtions</h2>
+<div class="main-arrow">
+<ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+<ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon></div></div>
+<div class="highlight-wrapper">
+<div class="highlight-card">
+<img class="highlight-img" src="Costa Coffee/Veg Supreme Burger.JPG">
+<div class="highlight-desc">
+<h4 class="name">Ginni Burgers</h4>
+<h4 class="meal">Veg Supreme Burger</h4>
+<p>Rs 90</p></div></div>
+<div class="highlight-card">
+<img class="highlight-img" src="Project photos/Pizza/Farm Fresh veggie.jpg">
+<div class="highlight-desc">
+<h4 class="name">Mini Friends Corner </h4>
+<h4 class="meal">Cheese Spring Roll</h4>
+<p>Rs 210</p></div></div>
+<div class="highlight-card">
+<img class="highlight-img" src="Pizza Hut/Veggie Feast.JPG">
+<div class="highlight-desc">
+<h4 class="name">Pizza Hut</h4>
+<h4 class="meal"> Veggie Feast</h4>
+<p>Rs 219</p></div></div>
+<div class="highlight-card">
+<img class="highlight-img" src="dominos/Fresh Veggie Pizza.JPG">
+<div class="highlight-desc">
+<h4 class="name">Domino's</h4>
+<h4 class="meal">Fresh Veggie Pizza</h4>
+<p>Rs 399 </p></div></div></div></div>
+<div class="main-menu">
+<div class="main-filter">           
+<div>
+<h2 class="main-title">Menu <br>Category</h2>
+<div class="main-arrow">
+<ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+<ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon></div></div>    
+<div class="filter-wrapper">
+<span class="icon-close"> <ion-icon name="close-outline"></ion-icon></span>
+<div class="filter-card">
+<div class="filter-icon">
+<ion-icon name="restaurant-outline"></ion-icon> </div>
+<p>All Menus</p></div>
+<div class="filter-card">
+<div class="filter-icon">
+<img class="highlight-img" src="Project photos/Burger/double chesse.jpg" ></div>
+<p>Burger</p></div>
+<div class="filter-card">
+<div class="filter-icon">
+<img class="highlight-img" src="Project photos/Pizza/Farm Fresh veggie.jpg" ></div>
+<p>Pizza</p></div>
+<div class="filter-card">
+<div class="filter-icon">
+<img class="highlight-img" src="Project photos/Pasta/white sauce.jpg" ></div>
+<p>Pasta</p></div>
+<div class="filter-card">
+<div class="filter-icon">
+<img class="highlight-img" src="Wendos/grilled-sandwich.jpg" ></div>
+<p>Sandwich</p></div>
+<div class="filter-card">
+<div class="filter-icon">
+<img class="highlight-img" src="Project photos/Fries/Simple Fries.jpg" ></div>
+<p>Fries</p></div>
+<div class="filter-card">
+<div class="filter-icon">
+<img class="highlight-img" src="Shiv Bakers/Veg Mixed Chowmein.JPG" ></div>
+<p>Chinese</p></div>
+<div class="filter-card">
+<div class="filter-icon">
+<img class="highlight-img" src="Wendos/Choco Lava Cake.JPG" ></div>
+<p>Deserts</p></div>
+<div class="filter-card">
+<div class="filter-icon">
+<img class="highlight-img" src="Wendos/Strawberry Shake.JPG" ></div>
+<p>Beverages</p></div></div></div>
+<hr class="divider">
+<div class="main-detail">
+<h2 class="main-title">Restaurant to Explore</h2>
+<div class="detail-wrapper">
+<div class="detail-card">
+<img class="detail-image" src="Restaurant/Wendos.jpg" >
+<div class="detail-desc">
+<div class="detail-name">
+<h4>Wendo's</h4>
+<p class="detail-sub">Pizzas,Fast Food</p>
+<p class="Outlet">Mall Road Solan</p>
+<button  class="btn" id="menuButton">View Menu</button>
+<script>                       
+document.getElementById("menuButton").addEventListener("click", function() {
+var menuPageURL = "1.html";
+window.location.href = menuPageURL;});
+</script></div>
+<ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon></div></div>
+<div class="detail-card">
+<img class="detail-image" src="Restaurant/M Pizzza.jpg" >
+<div class="detail-desc">
+<div class="detail-name">
+<h4>Mountain Pizza</h4>
+<p class="detail-sub">Pizzas,Burgers</p>
+<p class="Outlet">Mall Road Solan</p>
+<button class="btn" id="menu1Button">View Menu</button>
+<script>                       
+document.getElementById("menu1Button").addEventListener("click", function() {
+var menuPageURL = "2.html";
+window.location.href = menuPageURL;});
+</script></div>
+<ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon></div></div>
+<div class="detail-card">
+<img class="detail-image" src="Restaurant/La Pino'z.jpg" >
+<div class="detail-desc">
+<div class="detail-name">
+<h4>La Pino'z Pizza</h4>
+<p class="detail-sub">Pizzas,Pastas</p>
+<p class="Outlet">Solan Town</p>
+<button class="btn" id="menu2Button">View Menu</button>
+<script>                       
+document.getElementById("menu2Button").addEventListener("click", function() {
+var menuPageURL = "3.html";
+window.location.href = menuPageURL;});
+</script></div>
+<ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon></div></div>
+<div class="detail-card">
+<img class="detail-image" src="Restaurant/Shiv Bakers.JPG" >
+<div class="detail-desc">
+<div class="detail-name">
+<h4>Shiv Bakers</h4>
+<p class="detail-sub">Deserts,Beverages,Fast Food</p>
+<p class="Outlet">near Murari Market, Solan</p>
+<button class="btn" id="menu3Button">View Menu</button>
+<script>                       
+document.getElementById("menu3Button").addEventListener("click", function() {
+var menuPageURL = "8.html";
+window.location.href = menuPageURL;});
+</script></div>
+<ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon></div></div>
+<div class="detail-card">
+<img class="detail-image" src="Restaurant/Ginni.jpg" >
+<div class="detail-desc">
+<div class="detail-name">
+<h4>Ginni Burgers</h4>
+<p class="detail-sub">Burgers,Fast Food</p>
+<p class="Outlet">Mall Road Solan</p>
+<button class="btn" id="menu4Button">View Menu</button>
+<script>                       
+document.getElementById("menu4Button").addEventListener("click", function() {
+var menuPageURL = "7.html";
+window.location.href = menuPageURL;});
+</script></div>
+<ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+</div>
+</div>
+<div class="detail-card">
+<img class="detail-image" src="Restaurant/Domino's.jpg" >
+<div class="detail-desc">
+<div class="detail-name">
+<h4>Domino's Pizza</h4>
+<p class="detail-sub">Pizzas,Italian</p>
+<p class="Outlet">Solan Locality</p>
+<button class="btn" id="menu5Button">View Menu</button>
+<script>                       
+document.getElementById("menu5Button").addEventListener("click", function() {
+var menuPageURL = "5.html";
+window.location.href = menuPageURL;
+});
+</script></div>
+<ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon></div></div>
+<div class="detail-card">
+<img class="detail-image" src="Restaurant/Pizza Hut.JPG" >
+<div class="detail-desc">
+<div class="detail-name">
+<h4>Pizza Hut</h4>
+<p class="detail-sub">pizza, wings & pasta</p>
+<p class="Outlet"> Solan Locality</p>
+<button class="btn" id="menu7Button">View Menu</button>
+<script>                       
+document.getElementById("menu7Button").addEventListener("click", function() {
+var menuPageURL = "4.html";
+window.location.href = menuPageURL;});
+</script></div>
+<ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon></div></div>
+<div class="detail-card">
+<img class="detail-image" src="Restaurant/Costa Coffee.JPG" >
+<div class="detail-desc">
+<div class="detail-name">
+<h4>Costa Coffee</h4>
+<p class="detail-sub">Beverages, Cafe/p>
+<p class="Outlet">Solan Locality</p>
+<button class="btn" id="menu8Button">View Menu</button>
+<script>                       
+document.getElementById("menu8Button").addEventListener("click", function() {
+var menuPageURL = "9.html";
+window.location.href = menuPageURL;});
+</script></div>
+<ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon></div></div>
+<div class="detail-card">
+<img class="detail-image" src="Restaurant/friends.jpg" >
+<div class="detail-desc">
+<div class="detail-name">
+<h4>Mini Friends Corner</h4>
+<p class="detail-sub">Chinese,Fast Foodx</p>
+<p class="Outlet">Anand Complex,Mall Road Solan</p>
+<button class="btn" id="menu9Button">View Menu</button>
+<script>                       
+document.getElementById("menu9Button").addEventListener("click", function() {
+var menuPageURL = "6.html";
+window.location.href = menuPageURL;});
+</script></div>
+<ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+</div></div></div></div></div></div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</html>
+

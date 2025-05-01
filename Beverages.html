@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="order.css">
+  <title>Beverages</title>
+</head>
+<body>
+  <div id="product-container">
+    <div class="product">
+      <img class="images" src="Costa Coffee/Cappuccino.JPG">
+      <h2>Cappuccino</h2>
+      <p>Rs 235</p>
+      <button onclick="addToCart('Cappuccino',  235.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Americano.JPG">
+      <h2>Americano</h2>
+      <p>Rs 215</p>
+      <button onclick="addToCart('Americano', 215.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Cafe Latte.JPG">
+      <h2>Cafe Latte</h2>
+      <p>Rs 235</p>
+      <button onclick="addToCart('Cafe Latte', 235.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Mocha.JPG">
+      <h2>Mocha</h2>
+      <p>Rs 265</p>
+      <button onclick="addToCart('Mocha', 265.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Cafe Caramella.JPG">
+      <h2>Cafe Caramella</h2>
+      <p>Rs 260</p>
+      <button onclick="addToCart('Cafe Caramella', 260.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Flat White.JPG">
+      <h2>Flat White</h2>
+      <p>Rs 280</p>
+      <button onclick="addToCart('Flat White', 280.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Hazelnut Latte.JPG">
+      <h2>Hazelnut Latte</h2>
+      <p>Rs 235</p>
+      <button onclick="addToCart('Hazelnut Latte', 235.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Vanilla Latte.JPG">
+      <h2>Vanilla Latte</h2>
+      <p>Rs 235</p>
+      <button onclick="addToCart('Vanilla Latte', 235.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Hot Chocolate.JPG">
+      <h2>Hot Chocolate</h2>
+      <p>Rs 260</p>
+      <button onclick="addToCart('Hot Chocolate', 260.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Tea.JPG">
+      <h2>Tea Assam</h2>
+      <p>Rs 235</p>
+      <button onclick="addToCart('Tea Assam', 235.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Tea.JPG">
+      <h2>Tea English Breakfast</h2>
+      <p>Rs 235</p>
+      <button onclick="addToCart('Tea English Breakfast', 235.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Tea.JPG">
+      <h2>Tea Massala</h2>
+      <p>Rs 235</p>
+      <button onclick="addToCart('Tea Massala', 235.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Tea Green Tea.JPG">
+      <h2>Tea Green Tea</h2>
+      <p>Rs 235</p>
+      <button onclick="addToCart('Tea Green Tea', 235.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Bubbly Mango Bubbles Frappe.JPG">
+      <h2>Bubbly Mango Bubbles Frappe</h2>
+      <p>Rs 330</p>
+      <button onclick="addToCart('Bubbly Mango Bubbles Frappe', 330.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Charming Hazelnut Chocolate Frappe.JPG">
+      <h2>Charming Hazelnut Chocolate Frappe</h2>
+      <p>Rs 320</p>
+      <button onclick="addToCart('Charming Hazelnut Chocolate Frappe', 320.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Delightful Classic Coffee.JPG">
+      <h2>Delightful Classic Coffee</h2>
+      <p>Rs 265</p>
+      <button onclick="addToCart('Delightful Classic Coffee', 265.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Dreamy Chocolate Fudge Brownie Frapp.JPG">
+      <h2>Dreamy Chocolate Fudge Brownie Frappe</h2>
+      <p>Rs 330</p>
+      <button onclick="addToCart('Dreamy Chocolate Fudge Brownie Frappe', 330.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Romantic Strawberry & Cream.JPG">
+      <h2>Romantic Strawberry & Cream</h2>
+      <p>Rs 310</p>
+      <button onclick="addToCart('Romantic Strawberry & Cream', 310.00)">Add to Cart</button></div>
+    <div class="product">
+      <img  class="images"src="Costa Coffee/Serene Caramel Frappe.JPG">
+      <h2>Serene Caramel Frappe</h2>
+      <p>Rs 320</p>
+      <button onclick="addToCart('Serene Caramel Frappe', 320.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Smooth Creamy Coffee Frappe.JPG">
+      <h2>Smooth Creamy Coffee Frappe</h2>
+      <p>Rs 299</p>
+      <button onclick="addToCart('Smooth Creamy Coffee Frappe', 299.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Iced Latte.JPG">
+      <h2>Iced Latte</h2>
+      <p>Rs 245</p>
+      <button onclick="addToCart('Iced Latte', 245.00)">Add to Cart</button> </div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Iced Cappuccino.JPG">
+      <h2>Iced Cappuccino</h2>
+      <p>Rs 245</p>
+      <button onclick="addToCart('Iced Cappuccino', 245.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Costa Coffee/Iced Espresso Americano.JPG">
+      <h2>Iced Espresso Americano</h2>
+      <p>Rs 235</p>
+      <button onclick="addToCart('Iced Espresso Americano', 245.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Iced Chocolate.JPG">
+      <h2>Iced Chocolate</h2>
+      <p>Rs 275</p>
+      <button onclick="addToCart('Iced Chocolate', 275.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Iced Flat Mocha.JPG">
+      <h2>Iced Flat Mocha</h2>
+      <p>Rs 255</p>
+      <button onclick="addToCart('Iced Flat Mocha', 255.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Costa Coffee/Iced Flat White.JPG">
+      <h2>Iced Flat White</h2>
+      <p>Rs 280</p>
+      <button class="btn" onclick="addToCart('Iced Flat White', 280.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Ice Tea Peach.JPG">
+        <h2>Ice Tea Peach</h2>
+        <p>Rs 195</p>
+        <button class="btn" onclick="addToCart('Ice Tea Peach', 195.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Mango And Passion Fruit.JPG">
+        <h2>Mango And Passion Fruit</h2>
+        <p>Rs 260</p>
+        <button class="btn" onclick="addToCart('Mango And Passion Fruit', 260.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Lemon Ice Tea.JPG">
+        <h2>Lemon Ice Tea</h2>
+        <p>Rs 195</p>
+        <button class="btn" onclick="addToCart('Lemon Ice Tea', 195.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Classic Lemonade.JPG">
+        <h2>Classic Lemonade</h2>
+        <p>Rs 220</p>
+        <button class="btn" onclick="addToCart('Classic Lemonade', 220.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Mint Lemonade.JPG">
+        <h2>Mint Lemonade</h2>
+        <p>Rs 220</p>
+        <button class="btn" onclick="addToCart('Mint Lemonade', 220.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Peach Lemonade.JPG">
+        <h2>Peach Lemonade</h2>
+        <p>Rs 250</p>
+        <button class="btn" onclick="addToCart('Peach Lemonade', 250.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Mixed Berry Cooler.JPG">
+        <h2>Mixed Berry Cooler</h2>
+        <p>Rs 255</p>
+        <button class="btn" onclick="addToCart('Mixed Berry Cooler', 255.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Oat & Nuts Cookies (Eggless).JPG" >
+        <h2>Oat & Nuts Cookies (Eggless)</h2>
+        <p>Rs 190</p>
+        <button class="btn" onclick="addToCart('Oat & Nuts Cookies (Eggless)', 190.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Costa Coffee/Choco Chip Cookies (Eggless).JPG">
+        <h2>Choco Chip Cookies (Eggless)</h2>
+        <p>Rs 170</p>
+        <button class="btn" onclick="addToCart('Choco Chip Cookies (Eggless)', 170.00)">Add to Cart</button></div>
+        <div class="product">
+            <img class="images" src="Wendos/Banana Shake.JPG">
+            <h2>Banana Thick Shake</h2>
+            <p>Rs 80</p>
+            <button class="btn" onclick="addToCart('Banana Thick Shake', 80.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Vanilla Shake.JPG">
+            <h2>Vanilla Thick Shake</h2>
+            <p>Rs 99</p>
+            <button class="btn" onclick="addToCart('Vanilla Thick Shake', 99.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Mango Shake.JPG">
+            <h2>Mango Crush Thick Shake</h2>
+            <p>Rs 99</p>
+            <button class="btn" onclick="addToCart('Mango Crush Thick Shake', 99.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Chocolate Shake.JPG">
+            <h2>Chocolate Shake</h2>
+            <p>Rs 99</p>
+            <button class="btn" onclick="addToCart('Chocolate Shake', 99.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Strawberry Shake.JPG">
+            <h2>Strawberry Thick Shake</h2>
+            <p>Rs 99</p>
+            <button class="btn" onclick="addToCart('Strawberry Thick Shak', 99.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Butterscotch Shake.JPG">
+            <h2>Butterscotch Thick Shake</h2>
+            <p>Rs 110</p>
+            <button class="btn" onclick="addToCart('Butterscotch Thick Shake', 110.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Costa Coffee/Choco O Oreo Thick Shake.JPG">
+            <h2>Choco O Oreo Thick Shake</h2>
+            <p>Rs 130</p>
+            <button class="btn" onclick="addToCart('Choco O Oreo Thick Shake', 130.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Cold Coffee.JPG">
+            <h2>Cold Coffee[250 ml]</h2>
+            <p>Rs 95</p>
+            <button class="btn" onclick="addToCart('Cold Coffee[250 ml]', 95.00)">Add to Cart</button></div>
+            <div class="product">
+                <img class="images" src="dominos/Lipton Ice Tea ( 350 ml).JPG">
+                <h2>Lipton Ice Tea ( 350 ml)</h2>
+                <p>Rs 57.14</p>
+                <button class="btn" onclick="addToCart('Lipton Ice Tea ( 350 ml)', 57.14)">Add to Cart</button></div>
+         <div class="product">
+      <img class="images" src="Pizza Hut/Pepsi Black.JPG">
+      <h2>Pepsi Black</h2>
+      <p>Rs 57</p>
+      <button onclick="addToCart('Pepsi Black', 57.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Pizza Hut/7up Pet Bottle.JPG">
+      <h2>7up Pet Bottle</h2>
+      <p>Rs 57</p>
+      <button onclick="addToCart('7up Pet Bottle', 57.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Pizza Hut/Mirinda Pet Bottle.JPG">
+      <h2>Mirinda Pet Bottle</h2>
+      <p>Rs 57</p>
+      <button class="btn" onclick="addToCart('Mirinda Pet Bottle', 57.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Pizza Hut/Pepsi Pet Bottle.JPG">
+        <h2>Pepsi Pet Bottle</h2>
+        <p>Rs 57</p>
+        <button class="btn" onclick="addToCart('Pepsi Pet Bottle', 57.00)">Add to Cart</button></div>
+        <div class="product">
+            <img class="images" src="Wendos/Mango Shake.JPG">
+            <h2>Mango Shake</h2>
+            <p>Rs 89</p>
+            <button class="btn" onclick="addToCart('Mango Shake', 89.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Vanilla Shake.JPG">
+            <h2>Vanilla Shake</h2>
+            <p>Rs 89</p>
+            <button class="btn" onclick="addToCart('Vanilla Shake', 89.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Strawberry Shake.JPG">
+            <h2>Strawberry Shake</h2>
+            <p>Rs 89</p>
+            <button class="btn" onclick="addToCart('Strawberry Shake', 89.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Butterscotch Shake.JPG">
+            <h2>Butterscotch Shake</h2>
+            <p>Rs 89</p>
+            <button class="btn" onclick="addToCart('Butterscotch Shake', 89.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Chocolate Shake.JPG">
+            <h2>Chocolate Shake</h2>
+            <p>Rs 89</p>
+            <button class="btn" onclick="addToCart('Chocolate Shake', 89.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Banana Shake.JPG">
+            <h2>Banana Shake</h2>
+            <p>Rs 89</p>
+            <button class="btn" onclick="addToCart('Banana Shake', 89.00)">Add to Cart</button>    </div>
+          <div class="product">
+            <img class="images" src="Wendos/Cold Coffee.JPG">
+            <h2>Cold Coffee</h2>
+            <p>Rs 89</p>
+            <button class="btn" onclick="addToCart('Cold Coffee', 89.00)">Add to Cart</button>  </div>
+            <div class="product">
+                <img class="images" src="Wendos/Strawberry Shake.JPG">
+                <h2>Strawberry Shake</h2>
+                <p>Rs 145</p>
+                <button class="btn" onclick="addToCart('Strawberry Shake', 145.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Wendos/Butterscotch Shake.JPG">
+                <h2>Butterscotch Shake</h2>
+                <p>Rs 160</p>
+                <button class="btn" onclick="addToCart('Butterscotch Shake', 160.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Wendos/Chocolate Shake.JPG">
+                <h2>Chocolate Shake</h2>
+                <p>Rs 145</p>
+                <button class="btn" onclick="addToCart('Chocolate Shake', 145.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Wendos/Cold Coffee.JPG">
+                <h2>Cold Coffee</h2>
+                <p>Rs 99</p>
+                <button class="btn" onclick="addToCart('Cold Coffee', 99.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Mountain Pizza Club/Caramel Cold Coffee.JPG">
+                <h2>Caramel Cold Coffee</h2>
+                <p>Rs 129</p>
+                <button class="btn" onclick="addToCart('Caramel Cold Coffee', 129.00)">Add to Cart</button></div>
+        </div>
+  <div id="cart-container">
+    <div id="root"></div>
+    <div class="sidebar">
+        <div class="head"><p>My Cart</p></div>
+    <h2></h2>
+    <div id="cart-items"></div>
+    <hr>
+    <div id="total-amount">Total: Rs0.00</div>
+    <button class="btns" id="menu4Button">Checkout</button>
+    <script>                       
+    document.getElementById("menu4Button").addEventListener("click", function() {
+    var menuPageURL = "Checkour.html";
+    window.location.href = menuPageURL;
+    }); </script>
+  </div>
+  </div>
+</body>
+<script src="order.js"></script>
+</html>

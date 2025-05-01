@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c7c7c793;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .account-container {
+            max-width: 400px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: darkgreen;
+        }
+        button.delete {
+            background-color: #f44336;
+        }
+        button.delete:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="account-container">
+<h2>Account Information</h2>
+<div class="form-group">
+<label for="username">Username:</label>
+<input type="text" id="username" value="example_user" readonly></div>
+<div class="form-group">
+<label for="phoneNumber">Phone Number:</label>
+<input type="tel" id="phoneNumber" placeholder="Enter your phone number"></div>
+<div class="form-group">
+<label for="password">Password:</label>
+<input type="password" id="password" placeholder="Enter your password"></div>
+<button onclick="updateInfo()">Update Information</button>
+<button class="delete" onclick="deleteAccount()">Delete Account</button></div>
+<script>
+function updateInfo() {
+alert("Update functionality not implemented in this example.");}
+function deleteAccount() {
+alert("Delete functionality not implemented in this example.");}
+</script>
+</body>
+</html>

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="order.css">
+  <title>Pizza</title>
+</head>
+<body>
+  <div id="product-container">
+    <div class="product">
+      <img class="images" src="Wendos/Margherita Pizza Regular[7 inches].JPG">
+      <h2>Margherita Pizza Regular[7 inches]</h2>
+      <p>Rs 132</p>
+      <button onclick="addToCart('Margherita Pizza Regular[7 inches]', 132.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Margherita Pizza Regular[7 inches].JPG">
+      <h2>Margherita Pizza  Medium[9 inches]</h2>
+      <p>Rs 305</p>
+      <button onclick="addToCart('Margherita Pizza  Medium[9 inches]', 305.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Margherita Pizza Regular[7 inches].JPG">
+      <h2>Margherita Pizza Large [11 Inches]</h2>
+      <p>Rs 470</p>
+      <button onclick="addToCart('Margherita Pizza Large [11 Inches]', 470.00)">Add to Cart</button> </div>
+    <div class="product">
+      <img class="images" src="Wendos/Cheese And Onion Pizza Regular [Serves 1].JPG">
+      <h2>Cheese And Onion Pizza Regular [Serves 1]</h2>
+      <p>Rs 132</p>
+      <button onclick="addToCart('Cheese And Onion Pizza Regular [Serves 1]', 132.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Cheese And Onion Pizza Regular [Serves 1].JPG">
+      <h2>Cheese And Onion Pizza Medium [Serves 2]/h2>
+      <p>Rs 304</p>
+      <button onclick="addToCart('Cheese And Onion Pizza Medium [Serves 2]', 304.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Cheese And Onion Pizza Regular [Serves 1].JPG">
+      <h2>Cheese And Onion Pizza Large [Serves 4]</h2>
+      <p>Rs 470</p>
+      <button onclick="addToCart('Cheese And Onion Pizza Large [Serves 4]', 470.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Wendos/Cheese And Capsicum Pizza Large.JPG">
+      <h2>Cheese And Capsicum Pizza Regular [7 Inch]</h2>
+      <p>Rs 132</p>
+      <button onclick="addToCart('Cheese And Capsicum Pizza Regular [7 Inch]', 132.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Wendos/Cheese And Capsicum Pizza Large.JPG">
+      <h2>Cheese And Capsicum Pizza Medium [9 Inch]</h2>
+      <p>Rs 304</p>
+      <button onclick="addToCart('Cheese And Capsicum Pizza Medium [9 Inch]', 304.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Cheese And Capsicum Pizza Large.JPG">
+      <h2>Cheese And Capsicum Pizza Large [12 Inch]</h2>
+      <p>Rs 470</p>
+      <button onclick="addToCart('Cheese And Capsicum Pizza Large [12 Inch]', 470.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Wendos/Cheese And Tomato Pizza Regular [7 Inch].JPG">
+      <h2> Cheese And Tomato Pizza Regular [7 Inch]</h2>
+      <p>Rs 132</p>
+      <button onclick="addToCart('Cheese And Tomato Pizza Regular [7 Inch]', 132.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Wendos/Cheese And Tomato Pizza Regular [7 Inch].JPG">
+      <h2>Cheese And Tomato Pizza Medium [9 Inch]</h2>
+      <p>Rs 304</p>
+      <button onclick="addToCart('Cheese And Tomato Pizza Medium [9 Inch]', 304.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Cheese And Tomato Pizza Regular [7 Inch].JPG">
+      <h2>Cheese And Tomato Pizza Large [12 Inch]</h2>
+      <p>Rs 470</p>
+      <button onclick="addToCart('Cheese And Tomato Pizza Large [12 Inch]', 470.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Wendos/Vegetarian Pizza Regular [Serves 1].JPG">
+      <h2>Vegetarian Pizza Regular [Serves 1]</h2>
+      <p>Rs 209</p>
+      <button onclick="addToCart('Vegetarian Pizza Regular [Serves 1]', 209.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Wendos/Vegetarian Pizza Regular [Serves 1].JPG">
+      <h2>Vegetarian Pizza Medium [Serves 2]</h2>
+      <p>Rs 418</p>
+      <button onclick="addToCart('Vegetarian Pizza Medium [Serves 2]', 418.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Wendos/Vegetarian Pizza Regular [Serves 1].JPG">
+      <h2>Vegetarian Pizza Large [Serves 4]</h2>
+      <p>Rs 609</p>
+      <button onclick="addToCart('Vegetarian Pizza Large [Serves 4]', 609.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images"src="Wendos/Hawaiian Pizza Regular Serves 1 [7 Inches].JPG">
+      <h2>Hawaiian Pizza Regular Serves 1 [7 Inches]</h2>
+      <p>Rs 264</p>
+      <button onclick="addToCart('Hawaiian Pizza Regular Serves 1 [7 Inches]', 264.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Hawaiian Pizza Regular Serves 1 [7 Inches].JPG">
+      <h2>Hawaiian Pizza Medium Serves 2 [9 Inches]</h2>
+      <p>Rs 460</p>
+      <button onclick="addToCart('Hawaiian Pizza Medium Serves 2 [9 Inches]', 460.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Hawaiian Pizza Regular Serves 1 [7 Inches].JPG">
+      <h2>Hawaiian Pizza Large Serves 4 [12 Inches]</h2>
+      <p>Rs 600</p>
+      <button onclick="addToCart('Hawaiian Pizza Large Serves 4 [12 Inches]', 600.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Napolitana Pizza Large [Serves 4].JPG">
+      <h2>Napolitana Pizza Regular [Serves 1]</h2>
+      <p>Rs 209</p>
+      <button class="btn" onclick="addToCart('Napolitana Pizza Regular [Serves 1]', 209.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Napolitana Pizza Large [Serves 4].JPG">
+      <h2>Napolitana Pizza Medium [Serves 2]</h2>
+      <p>Rs 418</p>
+      <button class="btn" onclick="addToCart('Napolitana Pizza Medium [Serves 2]', 418.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Napolitana Pizza Large [Serves 4].JPG">
+      <h2>Napolitana Pizza Large [Serves 4]</h2>
+      <p>Rs 609</p>
+      <button class="btn" onclick="addToCart('Napolitana Pizza Large [Serves 4]', 609.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Golden Corn And Cheese Pizza Regular Large [Serves 4].JPG">
+      <h2>Golden Corn And Cheese Pizza Regular [Serves 1]</h2>
+      <p>Rs 187</p>
+      <button class="btn" onclick="addToCart('Golden Corn And Cheese Pizza Regular [Serves 1]', 187.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Golden Corn And Cheese Pizza Regular Large [Serves 4].JPG">
+      <h2>Golden Corn And Cheese Pizza Regular Medium [Serves 2]</h2>
+      <p>Rs 374</p>
+      <button class="btn" onclick="addToCart('Golden Corn And Cheese Pizza Regular Medium [Serves 2]', 374.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Wendos/Golden Corn And Cheese Pizza Regular Large [Serves 4].JPG">
+      <h2>Golden Corn And Cheese Pizza Regular Large [Serves 4]</h2>
+      <p>Rs 555</p>
+      <button class="btn" onclick="addToCart('Golden Corn And Cheese Pizza Regular Large [Serves 4]', 555.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="dominos/Margherita Pizza.JPG">
+        <h2>Margherita Pizza</h2>
+        <p>Rs 135</p>
+        <button onclick="addToCart('Margherita Pizza',  135.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Makhani Do Pyaza.JPG">
+        <h2>Makhani Do Pyaza</h2>
+        <p>Rs 165</p>
+        <button onclick="addToCart('Makhani Do Pyaza', 165.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Sweet Corns Delight.JPG">
+        <h2>Sweet Corns Delight</h2>
+        <p>Rs 165</p>
+        <button onclick="addToCart('Sweet Corns Delight', 165.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Onion Twist.JPG">
+        <h2>Onion Twist</h2>
+        <p>Rs 165</p>
+        <button onclick="addToCart('Onion Twist', 165.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Garden Delight Pizza.JPG">
+        <h2>Garden Delight Pizza</h2>
+        <p>Rs 185</p>
+        <button onclick="addToCart('Garden Delight Pizza', 185.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Country Side Pizza.JPG">
+        <h2>Country Side Pizza</h2>
+        <p>Rs 185</p>
+        <button onclick="addToCart('Country Side Pizza', 185.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Lovers Bite Pizza.JPG">
+        <h2>Lovers Bite Pizza</h2>
+        <p>Rs 185</p>
+        <button onclick="addToCart('Lovers Bite Pizza', 185.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Spring Fling Pizza.JPG">
+        <h2>Spring Fling Pizza/h2>
+        <p>Rs 185</p>
+        <button onclick="addToCart('Spring Fling Pizza', 185.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Burn To Hell Pizza.JPG">
+        <h2>Burn To Hell Pizza</h2>
+        <p>Rs 255</p>
+        <button onclick="addToCart('Burn To Hell Pizza', 255.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Cheezy-7 Pizza.JPG">
+        <h2>Cheezy-7 Pizza</h2>
+        <p>Rs 255</p>
+        <button onclick="addToCart('Cheezy-7 Pizza', 255.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Farm Villa Pizza.JPG">
+        <h2>Farm Villa Pizza</h2>
+        <p>Rs 255</p>
+        <button onclick="addToCart('Farm Villa Pizza', 255.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Garden Special Pizza.JPG">
+        <h2>Garden Special Pizza</h2>
+        <p>Rs 255</p>
+        <button onclick="addToCart('Garden Special Pizza', 255.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Veg.hawaiian Pizza.JPG">
+        <h2>Veg.hawaiian Pizza</h2>
+        <p>Rs 255</p>
+        <button onclick="addToCart('Veg.hawaiian Pizza', 255.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Capsicum Pizza.JPG">
+        <h2>Capsicum Pizza</h2>
+        <p>Rs 115</p>
+        <button onclick="addToCart('Capsicum Pizza', 115.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Onions Pizza.JPG">
+        <h2>Onions Pizza</h2>
+        <p>Rs 105</p>
+        <button onclick="addToCart('Onions Pizza', 105.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Tomatoes Pizza.JPG">
+        <h2>Tomatoes Pizza</h2>
+        <p>Rs 85</p>
+        <button onclick="addToCart('Tomatoes Pizza', 85.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Onions & Capsicum Pizza.JPG">
+        <h2>Onions & Capsicum Pizza</h2>
+        <p>Rs 139</p>
+        <button onclick="addToCart('Onions & Capsicum Pizza', 139.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Capsicum & Paneer Pizza.JPG">
+        <h2>Capsicum & Paneer Pizza</h2>
+        <p>Rs 159</p>
+        <button onclick="addToCart('Capsicum & Paneer Pizza', 159.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Capsicum & Paneer Pizza.JPG">
+        <h2>Capsicum & Paneer Pizza</h2>
+        <p>Rs 155</p>
+        <button onclick="addToCart('Capsicum & Paneer Pizza', 155.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Onions & Paneer Pizza.JPG">
+        <h2>Onion & Paneer Pizza</h2>
+        <p>Rs 155</p>
+        <button onclick="addToCart('Onion & Paneer Pizza', 155.00)">Add to Cart</button> </div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Sweet Corns Delight.JPG">
+        <h2>Sweet Corns Pizza</h2>
+        <p>Rs 115</p>
+        <button onclick="addToCart('Sweet Corns Pizza', 115.00)">Add to Cart</button></div>
+        <div class="product">
+      <img class="images" src="dominos/Margherita Pizza.JPG">
+      <h2>Margherita Pizza</h2>
+      <p>Rs 135</p>
+      <button onclick="addToCart('Margherita Pizza',  135.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Makhani Do Pyaza.JPG">
+      <h2>Makhani Do Pyaza</h2>
+      <p>Rs 165</p>
+      <button onclick="addToCart('Makhani Do Pyaza', 165.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Sweet Corns Delight.JPG">
+      <h2>Sweet Corns Delight</h2>
+      <p>Rs 165</p>
+      <button onclick="addToCart('Sweet Corns Delight', 165.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Onion Twist.JPG">
+      <h2>Onion Twist</h2>
+      <p>Rs 165</p>
+      <button onclick="addToCart('Onion Twist', 165.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Garden Delight Pizza.JPG">
+      <h2>Garden Delight Pizza</h2>
+      <p>Rs 185</p>
+      <button onclick="addToCart('Garden Delight Pizza', 185.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Country Side Pizza.JPG">
+      <h2>Country Side Pizza</h2>
+      <p>Rs 185</p>
+      <button onclick="addToCart('Country Side Pizza', 185.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Lovers Bite Pizza.JPG">
+      <h2>Lovers Bite Pizza</h2>
+      <p>Rs 185</p>
+      <button onclick="addToCart('Lovers Bite Pizza', 185.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Spring Fling Pizza.JPG">
+      <h2>Spring Fling Pizza/h2>
+      <p>Rs 185</p>
+      <button onclick="addToCart('Spring Fling Pizza', 185.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Burn To Hell Pizza.JPG">
+      <h2>Burn To Hell Pizza</h2>
+      <p>Rs 255</p>
+      <button onclick="addToCart('Burn To Hell Pizza', 255.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Cheezy-7 Pizza.JPG">
+      <h2>Cheezy-7 Pizza</h2>
+      <p>Rs 255</p>
+      <button onclick="addToCart('Cheezy-7 Pizza', 255.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Farm Villa Pizza.JPG">
+      <h2>Farm Villa Pizza</h2>
+      <p>Rs 255</p>
+      <button onclick="addToCart('Farm Villa Pizza', 255.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Garden Special Pizza.JPG">
+      <h2>Garden Special Pizza</h2>
+      <p>Rs 255</p>
+      <button onclick="addToCart('Garden Special Pizza', 255.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Veg.hawaiian Pizza.JPG">
+      <h2>Veg.hawaiian Pizza</h2>
+      <p>Rs 255</p>
+      <button onclick="addToCart('Veg.hawaiian Pizza', 255.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Capsicum Pizza.JPG">
+      <h2>Capsicum Pizza</h2>
+      <p>Rs 115</p>
+      <button onclick="addToCart('Capsicum Pizza', 115.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Onions Pizza.JPG">
+      <h2>Onions Pizza</h2>
+      <p>Rs 105</p>
+      <button onclick="addToCart('Onions Pizza', 105.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Tomatoes Pizza.JPG">
+      <h2>Tomatoes Pizza</h2>
+      <p>Rs 85</p>
+      <button onclick="addToCart('Tomatoes Pizza', 85.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Onions & Capsicum Pizza.JPG">
+      <h2>Onions & Capsicum Pizza</h2>
+      <p>Rs 139</p>
+      <button onclick="addToCart('Onions & Capsicum Pizza', 139.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Capsicum & Paneer Pizza.JPG">
+      <h2>Capsicum & Paneer Pizza</h2>
+      <p>Rs 159</p>
+      <button onclick="addToCart('Capsicum & Paneer Pizza', 159.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Capsicum & Paneer Pizza.JPG">
+      <h2>Capsicum & Paneer Pizza</h2>
+      <p>Rs 155</p>
+      <button onclick="addToCart('Capsicum & Paneer Pizza', 155.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Onions & Paneer Pizza.JPG">
+      <h2>Onion & Paneer Pizza</h2>
+      <p>Rs 155</p>
+      <button onclick="addToCart('Onion & Paneer Pizza', 155.00)">Add to Cart</button> </div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Sweet Corns Delight.JPG">
+      <h2>Sweet Corns Pizza</h2>
+      <p>Rs 115</p>
+      <button onclick="addToCart('Sweet Corns Pizza', 115.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/6 Pizza.JPG">
+        <h2>6" Pizza</h2>
+        <p>Rs 50</p>
+        <button onclick="addToCart('6 Pizza', 50.00)">Add to Cart</button></div>
+        <div class="product">
+            <img class="images" src="dominos/Golden Corn.JPG">
+            <h2>Golden Corn</h2>
+            <p>Rs 89</p>
+            <button onclick="addToCart('Golden Corn', 89.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Veg Loaded.JPG">
+            <h2>Veg Loaded</h2>
+            <p>Rs 189</p>
+            <button onclick="addToCart('Veg Loaded', 189.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Corn n Cheese Paratha Pizza.JPG">
+            <h2>Corn n Cheese Paratha Pizza</h2>
+            <p>Rs 189</p>
+            <button onclick="addToCart('Corn n Cheese Paratha Pizza', 189.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Indi Tandoori Paneer Pizza.JPG">
+            <h2>Indi Tandoori Paneer Pizza</h2>
+            <p>Rs 579</p>
+            <button onclick="addToCart('Indi Tandoori Paneer Pizza', 579.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Fresh Veggie Pizza.JPG">
+            <h2>Fresh Veggie Pizza</h2>
+            <p>Rs 399</p>
+            <button onclick="addToCart('Fresh Veggie Pizza', 399.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Achari Do Pyaza Pizza.JPG">
+            <h2>Achari Do Pyaza Pizza</h2>
+            <p>Rs 349</p>
+            <button onclick="addToCart('Achari Do Pyaza Pizza', 349.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Peppy Paneer Pizza.JPG">
+            <h2>Peppy Paneer Pizza </h2>
+            <p>Rs 479</p>
+            <button onclick="addToCart('Peppy Paneer Pizza', 479.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Veg Extravaganza Pizza.JPG">
+            <h2>Veg Extravaganza Pizza</h2>
+            <p>Rs 579</p>
+            <button onclick="addToCart('Veg Extravaganza Pizza', 579.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Margherita Pizza.JPG">
+            <h2>Margherita Pizza</h2>
+            <p>Rs 259</p>
+            <button onclick="addToCart('Margherita Pizza', 259.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Cheese n Corn Pizza.JPG">
+            <h2>Cheese n Corn Pizza</h2>
+            <p>Rs 399</p>
+            <button onclick="addToCart('Cheese n Corn Pizza', 399.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Mexican Green Wave Pizza.JPG">
+            <h2>Mexican Green Wave Pizza</h2>
+            <p>Rs 479</p>
+            <button onclick="addToCart('Mexican Green Wave Pizza', 479.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Farmhouse Pizza.JPG">
+            <h2>Farmhouse Pizza</h2>
+            <p>Rs 479</p>
+            <button onclick="addToCart('Farmhouse Pizza', 479.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Double Cheese Margherita Pizza.JPG">
+            <h2>Double Cheese Margherita Pizza</h2>
+            <p>Rs 399</p>
+            <button onclick="addToCart('Double Cheese Margherita Pizza', 399.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Fiery Jalapeno & Paprika.JPG">
+            <h2>Fiery Jalapeno & Paprika</h2>
+            <p>Rs 329</p>
+            <button onclick="addToCart('Fiery Jalapeno & Paprika', 329.00)">Add to Cart</button> </div>
+          <div class="product">
+            <img class="images" src="dominos/Special Party for 4 (Veg) @Rs. 180 off.JPG">
+            <h2>Special Party for 4 (Veg) @Rs. 180 off</h2>
+            <p>Rs 999</p>
+            <button onclick="addToCart('Special Party for 4 (Veg) @Rs. 180 off', 999.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Pizza Party for 4 (Veg) @Rs. 180 Off.JPG">
+            <h2>Pizza Party for 4 (Veg) @Rs. 180 Off</h2>
+            <p>Rs 999</p>
+            <button onclick="addToCart('Pizza Party for 4 (Veg) @Rs. 180 Off', 999.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Party for 4 (Veg) @Rs. 130 off.JPG">
+            <h2>Party for 4 (Veg) @Rs. 130 off</h2>
+            <p>Rs 829</p>
+            <button onclick="addToCart('Party for 4 (Veg) @Rs. 130 off', 829.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Extravaganza Party for 2 (Veg) @Rs. 110 off.JPG">
+            <h2>Extravaganza Party for 2 (Veg) @Rs. 110 off</h2>
+            <p>Rs 699</p>
+            <button onclick="addToCart('Extravaganza Party for 2 (Veg) @Rs. 110 off', 699.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="dominos/Match Day Veg Combo @Rs. 110 off.JPG">
+            <h2>Match Day Veg Combo @Rs. 110 off</h2>
+            <p>Rs 699</p>
+            <button class="btn" onclick="addToCart('Match Day Veg Combo @Rs. 110 off', 699.00)">Add to Cart</button></div>
+            <div class="product">
+              <img class="images" src="dominos/Special Party for 2 (Veg) @Rs. 105 off.JPG">
+              <h2>Special Party for 2 (Veg) @Rs. 105 off</h2>
+              <p>Rs 599</p>
+              <button class="btn" onclick="addToCart('Special Party for 2 (Veg) @Rs. 105 off', 599.00)">Add to Cart</button></div>
+            <div class="product">
+              <img class="images" src="dominos/Party for 2 (Veg) @Rs. 75 off.JPG">
+              <h2>Party for 2 (Veg) @Rs. 75 off</h2>
+              <p>Rs 469</p>
+              <button class="btn" onclick="addToCart('Party for 2 (Veg) @Rs. 75 off', 469.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Schezwan Margherita.JPG">
+                <h2>Schezwan Margherita</h2>
+                <p>Rs 219</p>
+                <button onclick="addToCart('Schezwan Margherita', 219.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Mexican Fiesta.JPG">
+                <h2>Mexican Fiesta</h2>
+                <p>Rs 319</p>
+                <button onclick="addToCart('Mexican Fiesta', 319.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Cheezy Mushroom Magic.JPG">
+                <h2>Cheezy Mushroom Magic</h2>
+                <p>Rs 319</p>
+                <button onclick="addToCart('Cheezy Mushroom Magic', 319.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Ultimate Tandoori Veggie.JPG">
+                <h2>Ultimate Tandoori Veggie</h2>
+                <p>Rs 379</p>
+                <button onclick="addToCart('Ultimate Tandoori Veggie', 379.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Mazedar Makhni Paneer.JPG">
+                <h2>Mazedar Makhni Paneer</h2>
+                <p>Rs 379</p>
+                <button onclick="addToCart('Mazedar Makhni Paneer', 379.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Awesome American Cheesy.JPG">
+                <h2>Awesome American Cheesy</h2>
+                <p>Rs 379</p>
+                <button onclick="addToCart('Awesome American Cheesy', 379.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="dominos/Margherita Pizza.JPG">
+                <h2>Margherita</h2>
+                <p>Rs 169</p>
+                <button onclick="addToCart('Margherita', 169.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Veggie Feast.JPG">
+                <h2>Veggie Feast </h2>
+                <p>Rs 219</p>
+                <button onclick="addToCart('Veggie Feast', 219.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Spiced Paneer.JPG">
+                <h2>Spiced Paneer</h2>
+                <p>Rs 259</p>
+                <button onclick="addToCart('Spiced Paneer', 259.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Tandoori Paneer.JPG">
+                <h2>Tandoori Paneer</h2>
+                <p>Rs 319</p>
+                <button onclick="addToCart('Tandoori Paneer', 319.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Country Feast.JPG">
+                <h2>Country Feast </h2>
+                <p>Rs 319</p>
+                <button onclick="addToCart('Country Feast', 319.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="Pizza Hut/Veggie Supreme.JPG">
+                <h2>Veggie Supreme</h2>
+                <p>Rs 379</p>
+                <button onclick="addToCart('Veggie Supreme', 379.00)">Add to Cart</button></div>
+              <div class="product">
+                <img class="images" src="dominos/Margherita Pizza.JPG">
+                <h2>Margherita Pizza</h2>
+                <p>Rs 169</p>
+                <button onclick="addToCart('Margherita Pizza', 169.00)">Add to Cart</button></div></div>
+              <div id="cart-container">
+    <div id="root"></div>
+    <div class="sidebar">
+        <div class="head"><p>My Cart</p></div>
+    <h2></h2>
+    <div id="cart-items"></div><hr>
+    <div id="total-amount">Total: Rs0.00</div>
+    <button class="btns" id="menu4Button">Checkout</button>
+    <script>                       
+    document.getElementById("menu4Button").addEventListener("click", function() {
+    var menuPageURL = "Checkour.html";
+    window.location.href = menuPageURL; });
+    </script></div></div>
+</body>
+<script src="order.js"></script>
+</html>

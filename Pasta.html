@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="order.css">
+  <title>Pasta</title>
+</head>
+<body>
+  <div id="product-container">
+    <div class="product">
+        <img class="images" src="Wendos/Veg Achari Pasta.JPG">
+        <h2>Veg Achari Pasta</h2>
+        <p>Rs165</p>
+        <button onclick="addToCart('Veg Achari Pasta',  165.00)">Add to Cart</button> </div>
+      <div class="product">
+        <img class="images" src="Wendos/Veg Red Sauce Pasta.JPG">
+        <h2>Veg Red Sauce Pasta</h2>
+        <p>Rs165</p>
+        <button onclick="addToCart('Veg Red Sauce Pasta', 165.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Wendos/Veg White Sauce Pasta.JPG">
+        <h2>Veg White Sauce Pasta</h2>
+        <p>Rs 165</p>
+        <button onclick="addToCart('Veg White Sauce Pasta', 165.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Wendos/Veggie.JPG">
+        <h2>Veggie Pasta</h2>
+        <p>165</p>
+        <button onclick="addToCart('Veggie Pasta', 165.00)">Add to Cart</button> </div>
+      <div class="product">
+        <img class="images" src="Wendos/Veg Tandoori Sauce Pasta.JPG">
+        <h2>Veg Tandoori Sauce Pasta </h2>
+        <p>Rs 187</p>
+        <button onclick="addToCart('Veg Tandoori Sauce Pasta', 187.00)">Add to Cart</button></div>
+    <div class="product">
+        <img class="images" src="Shiv Bakers/Americano Pasta Veg.JPG">
+        <h2>Americano Pasta Veg</h2>
+        <p>Rs 169</p>
+        <button class="btn" onclick="addToCart('Americano Pasta Veg', 169.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Indiana Pasta Veg.JPG">
+        <h2>Indiana Pasta Veg</h2>
+        <p>Rs 169</p>
+        <button class="btn" onclick="addToCart('Indiana Pasta Veg', 169.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Italiano Pasta Veg.JPG">
+        <h2>Italiano Pasta Veg</h2>
+        <p>Rs 169</p>
+        <button class="btn" onclick="addToCart('Italiano Pasta Veg', 169.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Shiv Bakers/Mexicana Pasta Veg.JPG">
+        <h2>Mexicana Pasta Veg</h2>
+        <p>Rs 169</p>
+        <button class="btn" onclick="addToCart('Mexicana Pasta Veg', 169.00)">Add to Cart</button></div>
+    <div class="product">
+        <img class="images" src="Wendos/Veg White Sauce Pasta.JPG">
+        <h2>Pasta in White Sauce</h2>
+        <p>Rs 140</p>
+        <button onclick="addToCart('Pasta in White Sauce', 140.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Mountain Pizza Club/Red Pasta.JPG">
+        <h2>Pasta in Red Sauce</h2>
+        <p>Rs 140</p>
+        <button onclick="addToCart('Pasta in Red Sauce', 140.00)">Add to Cart</button></div>
+      <div class="product">
+        <img class="images" src="Mountain Pizza Club/Mixed Pasta.JPG">
+        <h2>Mix Sauce Pasta</h2>
+        <p>Rs 140</p>
+        <button onclick="addToCart('Mix Sauce Pasta', 140.00)">Add to Cart</button></div>
+        <div class="product">
+            <img class="images" src="Mountain Pizza Club/Red Pasta.JPG">
+            <h2>Red Pasta</h2>
+            <p>Rs 149</p>
+            <button class="btn" onclick="addToCart('Red Pasta', 149.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Mountain Pizza Club/Mixed Pasta.JPG">
+            <h2>Mixed Pasta</h2>
+            <p>Rs 149</p>
+            <button class="btn" onclick="addToCart('Mixed Pasta', 149.00)">Add to Cart</button></div>
+          <div class="product">
+            <img class="images" src="Wendos/Veg White Sauce Pasta.JPG">
+            <h2>White Pasta</h2>
+            <p>Rs 130</p>
+            <button class="btn" onclick="addToCart('White Pasta', 130.00)">Add to Cart</button></div>
+</div>
+    <div id="cart-container">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head"><p>My Cart</p></div>
+        <h2></h2>
+        <div id="cart-items"></div>
+        <hr>
+        <div id="total-amount">Total: Rs0.00</div>
+        <button class="btns" id="menu4Button">Checkout</button>
+        <script>                       
+        document.getElementById("menu4Button").addEventListener("click", function() {
+        var menuPageURL = "Checkour.html";
+        window.location.href = menuPageURL;
+        }); </script>
+      </div>
+      </div>
+      </body>
+      <script src="order.js"></script>
+      </html>

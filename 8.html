@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="order.css">
+  <title>Shiv Bakers</title>
+</head>
+<body>
+  <div id="product-container">
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Eggless Strawberry Cake.jpg">
+      <h2>Eggless Strawberry Cake</h2>
+      <p>Rs 360</p>
+      <button onclick="addToCart('Eggless Strawberry Cake',  360.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Eggless Black Forest Cake.JPG">
+      <h2>Eggless Black Forest Cake</h2>
+      <p>Rs 390</p>
+      <button onclick="addToCart('Eggless Black Forest Cake', 390.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Eggless Pineapple Pastry.JPG">
+      <h2>Eggless Pineapple Pastry</h2>
+      <p>Rs 50</p>
+      <button onclick="addToCart('Eggless Pineapple Pastry', 50.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Eggless Strawberry Pastry.JPG">
+      <h2>Eggless Strawberry Pastry</h2>
+      <p>Rs 50</p>
+      <button onclick="addToCart('Eggless Strawberry Pastry', 50.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Eggless Butterscotch Pastry.JPG">
+      <h2>Eggless Butterscotch Pastry</h2>
+      <p>Rs 50</p>
+      <button onclick="addToCart('Eggless Butterscotch Pastry', 50.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Eggless Black Forest Pastry.JPG">
+      <h2>Eggless Black Forest Pastry</h2>
+      <p>Rs 50</p>
+      <button onclick="addToCart('Eggless Black Forest Pastry', 50.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Donut.JPG">
+      <h2>Donut</h2>
+      <p>Rs 50</p>
+      <button onclick="addToCart('Donut', 50.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Hotdog.JPG">
+      <h2>Hotdog</h2>
+      <p>Rs 35</p>
+      <button onclick="addToCart('Hotdog', 35.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Burger.JPG">
+      <h2>Burger</h2>
+      <p>Rs 45</p>
+      <button onclick="addToCart('Burger', 45.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/6 Pizza.JPG">
+      <h2>6" Pizza</h2>
+      <p>Rs 50</p>
+      <button onclick="addToCart('6 Pizza', 50.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Mumbai Indians Combo.JPG">
+      <h2>Mumbai Indians Combo(Eggless Pineaplle Cake + Eggless Strawberry Cake)</h2>
+      <p>Rs 519</p>
+      <button onclick="addToCart('Mumbai Indians Combo', 519.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Chennai super Kings Combo.JPG">
+      <h2>Chennai super Kings Combo(Eggless Butterscotch Cake + Eggless Black Forest Cake)</h2>
+      <p>Rs 729</p>
+      <button onclick="addToCart('Chennai super Kings Combo', 729.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Kolkata knight riders combo.JPG">
+      <h2>Kolkata knight riders combo(Eggless Black Forest Cake + 4 Pcs 6"Pizza)</h2>
+      <p>Rs 529</p>
+      <button onclick="addToCart('Kolkata knight riders combo', 529.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Sunriser Hyderabad combo.JPG">
+      <h2>Sunriser Hyderabad combo(Eggless Pineapple Cake + 2 Pcs 6"Pizza + 2Burger)</h2>
+      <p>Rs 389</p>
+      <button onclick="addToCart('Sunriser Hyderabad combo', 389.00)">Add to Cart</button></div>
+    <div class="product">
+      <img class="images" src="Shiv Bakers/Rajasthan Royal combo.JPG">
+      <h2>Rajasthan Royal combo(Eggless Chocolate Cake + 2 Pcs Burger + 2 Hotdog)</h2>
+      <p>Rs 429</p>
+      <button onclick="addToCart('Rajasthan Royal combo', 429.00)">Add to Cart</button></div></div>
+  <div id="cart-container">
+    <div id="root"></div>
+    <div class="sidebar">
+        <div class="head"><p>My Cart</p></div>
+    <h2></h2>
+    <div id="cart-items"></div><hr>
+    <div id="total-amount">Total: Rs0.00</div>
+    <button class="btns" id="menu4Button">Checkout</button>
+    <script>                       
+    document.getElementById("menu4Button").addEventListener("click", function() {
+    var menuPageURL = "Checkour.html";
+    window.location.href = menuPageURL;
+    }); </script></div></div>
+</body>
+<script src="order.js"></script>
+</html>

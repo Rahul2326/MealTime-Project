@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<title>Review</title>
+<style>
+        *{
+            font-family: 'open sans' , sans-serif
+        }
+        body{
+            background-color: #c7c7c793;
+        }
+        .reviews-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkgreen;
+        }
+        .review {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+</style>
+<title> Reviews Page</title>
+</head>
+<body>
+<div class="reviews-container">
+<h2>Reviews</h2>
+<form id="reviewForm">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="rating">Rating:</label>
+<select id="rating" name="rating" required>
+<option value="5">5 (Excellent)</option>
+<option value="4">4 (Good)</option>
+<option value="3">3 (Average)</option>
+<option value="2">2 (Below Average)</option>
+<option value="1">1 (Poor)</option></select>
+<label for="comment">Comment:</label>
+<textarea id="comment" name="comment" rows="4" required></textarea>
+<button type="button" onclick="submitReview()">Submit Review</button></form>
+<div id="reviewsDisplay"></div></div>
+<script>
+function submitReview() {
+var name = document.getElementById('name').value;
+var rating = document.getElementById('rating').value;
+var comment = document.getElementById('comment').value;
+var reviewElement = document.createElement('div');
+reviewElement.classList.add('review');
+reviewElement.innerHTML = `<strong>${name}</strong> - Rating: ${rating}/5<br>${comment}`;
+var reviewsDisplay = document.getElementById('reviewsDisplay');
+reviewsDisplay.appendChild(reviewElement);
+document.getElementById('reviewForm').reset(); }
+</script>
+</body>
+</html>

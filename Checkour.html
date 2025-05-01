@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<title>Checkout</title>
+<style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c7c7c793;
+    font-family: 'open sans' , sans-serif
+}
+h2 {
+    color: #333;
+}
+.checkout-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgreen;
+  }
+.order-summary {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+.alert {
+    padding: 15px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+    .checkout-container {
+        margin: 20px;
+    }
+}
+        .checkout-container {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .order-summary {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 20px;
+        }
+</style>
+<title>Checkout Page</title>
+</head>
+<body>
+ <div class="checkout-container">
+<h2>Checkout</h2>
+<form id="checkoutForm">     
+<label for="address">Address:</label>
+<textarea id="address" name="address" required></textarea>
+<label for="contact">Contact Information:</label>
+<input type="text" id="contact" name="contact" required>
+<label for="deliveryOption">Delivery Options:</label>
+<select id="deliveryOption" name="deliveryOption">
+<option value="standard">Standard</option>
+<option value="express">Express</option> </select>
+<label for="paymentOption">Payment Options:</label>
+<select id="paymentOption" name="paymentOption">
+<option value="creditCard">Credit Card</option>
+<option value="paypal">PayPal</option>
+<option value="DeditCard">Dedit Card</option>
+<option value="UPI">UPI</option></select>
+<div class="order-summary" id="checkoutOrderSummary"></div>
+<button type="button" onclick="simulatePayment()">Place Order</button></form></div>
+<script>      
+function updateOrderSummary() {
+var total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);         
+var checkoutOrderSummary = document.getElementById('checkoutOrderSummary');
+checkoutOrderSummary.innerHTML = `
+<h3>Order Summary</h3>
+<p>Total Price: $${total}</p> `;}   
+function simulatePayment() {
+var address = document.getElementById('address').value;
+var contact = document.getElementById('contact').value;
+var deliveryOption = document.getElementById('deliveryOption').value;
+var paymentOption = document.getElementById('paymentOption').value;
+var orderDetails = `
+Order Details:
+Address: ${address}
+Contact Information: ${contact}
+Delivery Option: ${deliveryOption}
+Payment Option: ${paymentOption}`;
+alert(`Payment successful!\n${orderDetails}`);}
+updateOrderSummary();
+</script>
+</body>
+</html>
